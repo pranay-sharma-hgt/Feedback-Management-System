@@ -1,4 +1,3 @@
-```typescript
 import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
 import { Express } from "express";
@@ -15,6 +14,3 @@ async function hashPassword(password: string) {
   const buf = (await scryptAsync(password, salt, 64)) as Buffer;
   return `${buf.toString("hex")}.${salt}`;
 }
-
-// ... rest of authentication implementation including setupAuth function
-```
