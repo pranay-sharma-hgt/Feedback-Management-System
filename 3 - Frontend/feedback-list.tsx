@@ -1,4 +1,3 @@
-```typescript
 import { useQuery } from "@tanstack/react-query";
 import { type Feedback } from "@shared/schema";
 import { useState } from "react";
@@ -14,4 +13,3 @@ export default function FeedbackList() {
 
   // ... feedback list rendering logic
 }
-```
