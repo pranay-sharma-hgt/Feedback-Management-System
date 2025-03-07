@@ -1,4 +1,3 @@
-```typescript
 import OpenAI from "openai";
 
 // the newest OpenAI model is "gpt-4o" which was released May 13, 2024
@@ -39,4 +38,3 @@ export async function analyzeSentiment(text: string): Promise<{
     throw new Error(`Failed to analyze sentiment: ${error.message}`);
   }
 }
-```
