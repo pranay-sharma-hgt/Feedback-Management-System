@@ -1,4 +1,3 @@
-```typescript
 import { InsertUser, User, Feedback, InsertFeedback, users, feedback } from "@shared/schema";
 import session from "express-session";
 import connectPg from "connect-pg-simple";
@@ -15,6 +14,3 @@ export interface IStorage {
   createFeedback(feedback: InsertFeedback & { userId: number, sentimentRating: number, sentimentConfidence: string }): Promise<Feedback>;
   sessionStore: session.Store;
 }
-
-// ... DatabaseStorage class implementation
-```
