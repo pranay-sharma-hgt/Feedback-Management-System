@@ -1,4 +1,3 @@
-```typescript
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { insertFeedbackSchema, type InsertFeedback } from "@shared/schema";
@@ -15,4 +14,3 @@ export default function FeedbackForm() {
 
   // ... mutation and form rendering logic
 }
-```
