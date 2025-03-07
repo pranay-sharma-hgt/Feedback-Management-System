@@ -1,4 +1,3 @@
-```typescript
 import { useAuth } from "@/hooks/use-auth";
 import { useForm } from "react-hook-form";
 import { insertUserSchema, type InsertUser } from "@shared/schema";
@@ -10,4 +9,3 @@ export default function AuthPage() {
 
   // ... authentication form logic and rendering
 }
-```
